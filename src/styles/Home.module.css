@@ -1,0 +1,38 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6rem;
+  min-height: 100vh;
+}
+
+.home {
+  display: flex;
+  flex-direction: row;
+}
+
+.home div {
+  flex-grow: 1;
+}
+
+.leftRail {
+  display: flex;
+  flex-direction: column;
+}
+
+.rightRail {
+  display: flex;
+  flex-direction: column;
+}
+
+.home .formBuilder {
+  flex-grow: 2;
+  border: 1px solid black;
+  padding: 10px;
+  flex-basis: 500px;
+}
+
+.home .formBuilder input {
+  margin: 10px;
+}

@@ -1,0 +1,4 @@
+.leftRail {
+  display: flex;
+  flex-direction: column;
+}
